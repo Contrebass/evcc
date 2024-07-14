@@ -5,11 +5,11 @@ products:
 requirements:
   description:
     de: |
-      Benötigt `access` und `refresh` Tokens. Diese können über [tesla.evcc.io](https://tesla.evcc.io) erstellt werden.
+      Benötigt `access` und `refresh` Tokens. Diese können über [tesla.evcc.io](https://tesla.evcc.io) erstellt werden. Hierbei beachten dass das Token über den Hauptaccount ausgestellt wird.
       Die Steuerung von Fahrzeugen im Zusammenspiel mit einem Tesla Wall Connector erfolgt über einen evcc Proxy-Server und benötigt ein Sponsor Token. Der virtuelle evcc Schlüssel muss auf dem Fahrzeug installiert sein.
-      Siehe [tesla.evcc.io](https://tesla.evcc.io).
+      Siehe [tesla.evcc.io](https://tesla.evcc.io). 
     en: |
-      Tesla `access` and `refresh` tokens are required. These can be generated through [tesla.evcc.io](https://tesla.evcc.io).
+      Tesla `access` and `refresh` tokens are required. These can be generated through [tesla.evcc.io](https://tesla.evcc.io). Ensure to create a token through the main account.
       Controlling vehicles in conjunction with a Tesla Wall Connector is done via an evcc proxy server and requires a sponsor token. The evcc virtual key must be installed on the vehicle.
       See [tesla.evcc.io](https://tesla.evcc.io).
   evcc: ["sponsorship"]
